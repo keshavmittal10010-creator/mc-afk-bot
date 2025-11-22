@@ -4,5 +4,9 @@
   "main": "bot.js",
   "dependencies": {
     "mineflayer": "^4.14.0"
-  }
+  },
+"scripts": {
+  "start": "node keepalive.js & node bot.js"
 }
+}
+
